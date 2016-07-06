@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="checkbox_selector.xml" type="PLAIN_TEXT" />
+      <mapping pattern="bg_with_shadow" type="XML" />
+    </extensionMap>
+  </component>
+</application>
