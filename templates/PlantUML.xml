@@ -68,4 +68,26 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="autonumber" value="autonumber" description="The keyword autonumber is used to automatically add number to messages." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="title" value="title" description="The title keywords is used to put a title." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="caption" value="caption" description="There is also a caption keyword to put a caption under the diagram." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="legend" value="legend $ALIGNMENT$&#10;$LEGEND_DESCRIPTION$&#10;endlegend" description="The legend and end legend are keywords is used to put a legend. You can optionally specify to have left, right or center alignment for the legend." toReformat="false" toShortenFQNames="true">
+    <variable name="ALIGNMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LEGEND_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
