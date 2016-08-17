@@ -1,0 +1,10 @@
+<application>
+  <component name="CodeGeneratorTemplateSettings">
+    <option name="templateValues">
+      <map>
+        <entry key="Activity_template" value="import android.os.Bundle;&#10;import android.view.View;&#10;import io.chgocn.plug.activity.BaseActivity;&#10;${IMPORTS}&#10;&#10;public class ${CLASS_NAME}Activity extends BaseActivity ${INTERFACES} {&#10;    private final static String TAG = ${CLASS_NAME}Activity.class.getSimpleName();&#10;&#10;    ${FIELDS}&#10;&#10;    @Override&#10;    protected void onCreate(Bundle savedInstanceState) {&#10;        super.onCreate(savedInstanceState);&#10;        setTitle(getString(R.string.${RESOURCE_STRING_NAME}));&#10;&#10;        ${ASSIGNMENTS}&#10;    }&#10;    &#10;    @Override&#10;    protected int getContentView(){&#10;        return R.layout.${RESOURCE_NAME};&#10;    }&#10;&#10;    ${METHODS}&#10;}&#10;" />
+        <entry key="Fragment_template" value="import io.chgocn.plug.fragment.BaseFragment;&#10;import android.view.View;&#10;import android.view.LayoutInflater;&#10;import android.view.ViewGroup;&#10;import android.os.Bundle;&#10;${IMPORTS}&#10;&#10;public class ${CLASS_NAME}Fragment extends BaseFragment ${INTERFACES} {&#10;&#10;    ${FIELDS}&#10;&#10;    @Override&#10;    public View onCreateView(LayoutInflater inflater, ViewGroup container,&#10;                             Bundle savedInstanceState) {&#10;        return inflater.inflate(R.layout.${RESOURCE_NAME}, null);&#10;    }&#10;&#10;    @Override&#10;    public void onViewCreated(View view, Bundle savedInstanceState) {&#10;        super.onViewCreated(view, savedInstanceState);&#10;&#10;        ${ASSIGNMENTS}&#10;    }&#10;&#10;    ${METHODS}&#10;}&#10;" />
+      </map>
+    </option>
+  </component>
+</application>
