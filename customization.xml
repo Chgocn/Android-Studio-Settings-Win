@@ -1,30 +1,5 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="group.Add As Library..." is_group="true" action_type="-1" position="3">
-      <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add As Library..." is_group="true" action_type="-1" position="3">
-      <path value="root" />
-      <path value="Scope View Popup Menu" />
-      <path value="Project View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add As Library..." is_group="true" action_type="-1" position="3">
-      <path value="root" />
-      <path value="Favorites View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add As Library..." is_group="true" action_type="-1" position="3">
-      <path value="root" />
-      <path value="Navigation Bar" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="sortEnd" is_action="true" action_type="-1" position="1">
       <path value="root" />
       <path value="Main menu" />
@@ -46,13 +21,6 @@
       <path value="Sort Lifecycle Methods" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ShowProjectStructureSettings" is_action="true" action_type="1" position="1">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="File" />
-      <path value="Settings Actions" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="sortEnd00" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Main menu" />
@@ -60,29 +28,11 @@
       <path value="Sort Lifecycle Methods" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="group.Add as Library..." is_group="true" action_type="1" position="3">
+    <group value="ShowProjectStructureSettings" is_action="true" action_type="1" position="2">
       <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add as Library..." is_group="true" action_type="1" position="3">
-      <path value="root" />
-      <path value="Scope View Popup Menu" />
-      <path value="Project View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add as Library..." is_group="true" action_type="1" position="3">
-      <path value="root" />
-      <path value="Favorites View Popup Menu" />
-      <path value="Project View Popup Menu Settings Group" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="group.Add as Library..." is_group="true" action_type="1" position="3">
-      <path value="root" />
-      <path value="Navigation Bar" />
-      <path value="Project View Popup Menu Settings Group" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Settings Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="CodeGenerationPlugin.ActivityAction" is_action="true" action_type="1" position="4">
@@ -92,11 +42,24 @@
       <path value="Generate Android Code" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="group.Add as Library..." is_group="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Settings Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="CodeGenerationPlugin.ActivityAction" is_action="true" action_type="1" position="4">
       <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="group.Generate Android Code" />
       <path value="Generate Android Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="group.Add as Library..." is_group="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Scope View Popup Menu" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Settings Group" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="CodeGenerationPlugin.ActivityAction" is_action="true" action_type="1" position="4">
@@ -105,6 +68,18 @@
       <path value="Project View Popup Menu" />
       <path value="group.Generate Android Code" />
       <path value="Generate Android Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="group.Add as Library..." is_group="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Favorites View Popup Menu" />
+      <path value="Project View Popup Menu Settings Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="group.Add as Library..." is_group="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Navigation Bar" />
+      <path value="Project View Popup Menu Settings Group" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="CodeGenerationPlugin.BActivityAction" is_action="true" action_type="1" position="5">
