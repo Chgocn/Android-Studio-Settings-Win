@@ -1,7 +1,8 @@
 <application>
-  <component name="FileTypeManager" version="16">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="checkbox_selector.xml" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping pattern="bg_with_shadow" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
